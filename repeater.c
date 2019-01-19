@@ -5,7 +5,14 @@
 
 int main()  
 {  
-    char *str = getStrInput();
+    int size = 100;
+    printf("Enter a message: (max %d characters)\n", size);
+    char *str = getStrInput(size);
+    while (!str) {
+        printf("Message too long! Enter a new message: (max %d characters) \a\n" , size);
+        str = getStrInput(size);
+    }
+    printf("How many times?\n");
     int number = getNumber();
     char answer[1000];
     printf("Commands:\n");
