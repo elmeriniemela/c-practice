@@ -1,6 +1,6 @@
 # C Practice
 
-![alt text](c-practice.png)
+![alt text](https://raw.githubusercontent.com/thecodebasesite/c-harjoitus/master/docs/c-practice.png)
 
 Practice command line program made with C. 
 It takes a string user input and integer user input. 
